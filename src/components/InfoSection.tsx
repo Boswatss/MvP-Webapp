@@ -6,7 +6,7 @@ const InfoSection = () => (
     </h2>
     <div className="bg-white rounded-xl shadow-card p-6 text-gray-700 leading-relaxed font-prompt animate-fade-in">
       <p className="mb-2 font-kanit">
-        ข้าวหมูทอด MvP เริ่มต้นจากความตั้งใจที่จะส่งต่อรสชาติหมูทอดกรอบนอกนุ่มใน สูตรเฉพาะไม่เหมือนใคร พร้อมข้าวหอมมะลิไทยใหม่สดใหม่ทุกวัน
+        ยังไม่รู้จะเขียนอะไรแต่เขียนแน่ๆ
       </p>
       <p>
         Founded with a passion for authentic flavors, our crispy pork rice is unmatched in both taste and texture. Every plate is made fresh daily with love and the best Thai ingredients.

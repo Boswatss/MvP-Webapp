@@ -4,7 +4,7 @@ import { Facebook, ShoppingCart, Link } from "lucide-react";
 const CHANNELS = [
   {
     name: "Facebook",
-    url: "https://facebook.com/",
+    url: "https://www.facebook.com/mvp.mvvp/",
     Icon: Facebook,
     accent: "bg-blue-100 text-blue-700 hover:bg-blue-200",
   },

@@ -7,7 +7,7 @@ const Header = () => (
           ข้าวหมูทอด <span className="text-highlight">MvP</span>
         </h1>
         <div className="text-xs md:text-sm text-gray-500 font-light -mt-1 font-prompt">
-          MvP Pork Rice (Crispy Thai Flavors)
+          MvP Pork Rice 
         </div>
       </div>
       {/* Optional: placeholder for future nav */}

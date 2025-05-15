@@ -1,8 +1,8 @@
 
 const MAP_EMBED_LINK =
-  "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3875.8662419330656!2d100.50821647573423!3d13.733839298661534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e2994ee6ca0b3b%3A0x713903b90f7479aa!2sข้าวหมูทอด%20MvP!5e0!3m2!1sth!2sth!4v1716460000000!5m2!1sth!2sth";
+  "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3870.5634913132653!2d100.73196488360036!3d14.043869390462842!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x311d7976827ca2b9%3A0xdf02fb6fa271b043!2z4LiC4LmJ4Liy4Lin4Lir4Lih4Li54LiX4Lit4LiUIE1WUA!5e0!3m2!1sen!2sth!4v1747336622078!5m2!1sen!2sth";
 
-const MAP_ADDRESS = "123/4 ถนนพระราม 4 แขวงมหาพฤฒาราม เขตบางรัก กรุงเทพฯ, 10500";
+const MAP_ADDRESS = "ข้าง7-11 ซอยตะวันออก16 ตำบลคลองหก อำเภอคลองหลวง จังหวัดปทุมธานี 12120";
 
 const Map = () => (
   <section className="container my-10 md:my-14 flex flex-col md:flex-row items-center md:space-x-8">
