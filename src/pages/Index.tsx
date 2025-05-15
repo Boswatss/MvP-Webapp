@@ -1,4 +1,5 @@
-
+import NavBar from "../components/NavBar";
+import MenuSection from "../components/MenuSection";
 import Header from "../components/Header";
 import Menu from "../components/Menu";
 import Map from "../components/Map";
@@ -6,12 +7,12 @@ import InfoSection from "../components/InfoSection";
 import ContactSection from "../components/ContactSection";
 import OrderChannels from "../components/OrderChannels";
 
-// Responsive, modern, clean homepage layout
 const Index = () => {
   return (
     <div className="bg-gray-50 min-h-screen flex flex-col">
-      <Header />
+      <NavBar />
       <main className="flex-1 flex flex-col gap-8 lg:gap-12 py-6">
+        <MenuSection />
         <section>
           <div className="w-full px-3 md:px-0">
             <InfoSection />
