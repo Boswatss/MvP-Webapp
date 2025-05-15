@@ -1,33 +1,24 @@
 
-import React, { useRef } from "react";
-import Navbar from "../components/Navbar";
-import MenuPreview from "../components/MenuPreview";
+import Header from "../components/Header";
 import Menu from "../components/Menu";
 import Map from "../components/Map";
 import InfoSection from "../components/InfoSection";
 import ContactSection from "../components/ContactSection";
 import OrderChannels from "../components/OrderChannels";
 
+// Responsive, modern, clean homepage layout
 const Index = () => {
-  const menuRef = useRef<HTMLDivElement | null>(null);
-
-  const handleMenuClick = () => {
-    // Scroll to the "full menu" section
-    if (menuRef.current) {
-      menuRef.current.scrollIntoView({ behavior: "smooth", block: "start" });
-    }
-  };
-
   return (
     <div className="bg-gray-50 min-h-screen flex flex-col">
-      <Navbar onMenuClick={handleMenuClick} />
+      <Header />
       <main className="flex-1 flex flex-col gap-8 lg:gap-12 py-6">
-        <MenuPreview />
-        <div ref={menuRef}>
-          <Menu />
-        </div>
+        <section>
+          <div className="w-full px-3 md:px-0">
+            <InfoSection />
+          </div>
+        </section>
+        <Menu />
         <Map />
-        <InfoSection />
         <ContactSection />
         <OrderChannels />
       </main>
