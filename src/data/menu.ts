@@ -1,4 +1,3 @@
-
 interface MenuItem {
   id: string;
   nameTH: string;
@@ -255,35 +254,40 @@ const menuData: MenuCategory[] = [
     ],
   },
   {
+    id: "leng",
+    nameTH: "เมนูเล้ง",
+    nameEN: "Leng Soup Dishes",
+    items: [
+      {
+        id: "leng-1",
+        nameTH: "เล้งแซ่บ",
+        nameEN: "Spicy Pork Bone Soup",
+        img: "https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?w=400&q=80",
+        popular: true
+      },
+      {
+        id: "leng-2",
+        nameTH: "เล้งแซ่บหม้อไฟ",
+        nameEN: "Spicy Pork Bone Soup (Hotpot)",
+      }
+    ]
+  },
+  {
     id: "soup",
     nameTH: "ซุป",
     nameEN: "Soup",
     items: [
       {
         id: "soup-1",
-        nameTH: "เล้งแซ่บ",
-        nameEN: "Spicy Pork Bone Soup",
-        price: "79",
+        nameTH: "ต้มซุปเปอร์ขาไก่",
+        nameEN: "Super Chicken Feet Soup",
       },
       {
         id: "soup-2",
-        nameTH: "เล้งแซ่บหม้อไฟ",
-        nameEN: "Spicy Pork Bone Soup (Hotpot)",
-        price: "159",
-      },
-      {
-        id: "soup-3",
-        nameTH: "ต้มซุปเปอร์ขาไก่",
-        nameEN: "Super Chicken Feet Soup",
-        price: "79",
-      },
-      {
-        id: "soup-4",
         nameTH: "ต้มซุปเปอร์ขาไก่หม้อไฟ",
         nameEN: "Super Chicken Feet Soup (Hotpot)",
-        price: "159",
-      },
-    ],
+      }
+    ]
   },
   {
     id: "topping",
